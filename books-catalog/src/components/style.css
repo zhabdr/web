@@ -142,7 +142,7 @@ html{
     padding: 0.2rem;
 }
 
-.lag-inner{
+.lag_inner{
     min-height: 50%;
     width: 50%;
     position: fixed;
@@ -162,9 +162,11 @@ html{
     height: 550px;
     padding: 1.5rem;
     position: relative;
+    
     box-sizing: border-box;
     overflow: hidden;
     font-size: 1.3rem;
+    z-index: 1;
 }
 .lag-inner .next{
     position: absolute;
